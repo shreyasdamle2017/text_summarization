@@ -1,2 +1,2 @@
 # text_summarization
-This application uses extractive summarization and topic modelling to generate questions and answers automatically from the uploaded pdf text file.
+This project takes an input file of pdf and by using extractive summarization approach and topic modelling, it extracts various important topics from the pdf text and generates questions on those topics and also generates corresponding answers. These long answers could be summarized using the LDA(Latent Direchlet Allocation) approach. This application is a web application, has a voice assistant integrated for wikipedia searches and google searches.
