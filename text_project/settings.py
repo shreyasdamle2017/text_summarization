@@ -29,7 +29,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'dictionary.apps.DictionaryConfig',
     'text.apps.TextConfig',
     'users.apps.UsersConfig',
     'upload.apps.UploadConfig',
@@ -134,11 +133,3 @@ LOGIN_URL = 'login'
 
 SUMMARY_REDIRECT_URL = 'summary'
 SUMMARY_URL = 'summary/'
-
-if DEBUG:
-    EMAIL_HOST = 'localhost'
-    EMAIL_PORT = 1025
-    EMAIL_HOST_USER = ''
-    EMAIL_HOST_PASSWORD = ''
-    EMAIL_USE_TLS = False
-    DEFAULT_FROM_EMAIL = 'support@summarization.com'
